@@ -1,0 +1,249 @@
+
+.navStyle{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 39px;
+
+    & ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 12px;
+        & li  {
+            list-style: none;
+            & a {
+                color: white;
+                text-decoration: unset;
+            }
+        }
+      
+    }
+}
+
+
+.uniPhoto{
+    background-image: url("./imges/cambridge.jfif");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    & img{
+        max-width: 100%;
+        width: 109px;
+        height: 109px;
+
+    }
+    &  p{
+        color: white;
+        background: #cccccc6e;
+        opacity: 0.9;
+        padding: 8px;
+        font-size: 23px;
+    }
+
+}
+.aboutStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A5D6A7;
+    padding: initial;
+    height: 321px;
+
+}
+.aboutBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.OurserviceStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:initial ;
+    height: 321px;
+    background-color: #e387518c; 
+
+}
+.subSectionInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: initial;
+    width: 100%;
+    & p{
+        margin: 0;
+        text-align: center;
+
+    }
+
+}
+.wrapText{
+    text-wrap: wrap;
+    width: 195px;
+}
+
+.subSection{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.specStyleBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a5d6a7;
+    padding: 36px 16px;
+    height: 321px;
+
+}
+.ourTeachersBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0bd9f;
+    align-items: center;
+    padding: 36px 16px;
+    height: 321px;
+
+}
+.imgTeacherBox{
+    width: 156px;
+    height: 100px;
+    & img{
+        max-width: 100%;
+
+    }
+
+}
+.imgBox{
+    width: 100%;
+    height: 135px;
+    & img{
+        max-width: 100%;
+
+    }
+
+}
+.posters{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A5D6A7;
+    width: 100%;
+} 
+.posterContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFE082;
+    width: 247px;
+    height: 318px;
+    border-radius: 13px;
+    align-items: center;
+    margin: 16px;
+    padding:  16px;
+    height: 100%;
+
+}
+.pargraphStyle{
+    font-size: 31px;
+}
+.listItem{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  
+}
+.informationContainer{
+    background: #FF9800;
+    width: 100%;
+    border-radius: 3px;
+    border: 3px solid yellow;
+    padding: 10px 0;
+    & p{
+        padding: 0px 8px;
+        font-size: 22px;
+        margin: 0;
+    }
+
+}
+.postereBox{
+    display: flex;
+
+}
+
+.contactContainer{
+    background: #f0bd9f;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.contactTextStyle{
+    font-size: 47px;
+  margin-bottom: 0;
+}
+.lableStyle{
+    width: 100%;
+    text-align: left;
+}
+.inputStyle{
+    width: 300px;
+    margin-bottom: 6px;
+}
+.buttonStyle{
+    width: 168px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin: 14px;
+    border-radius: 6px;
+}
+.lableContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto;
+}
+.contactInfotextStyle{
+    font-size: 21px;
+    margin: 11px 0;
+}
+
+.footerStyle{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+
+    & ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        & li{
+            list-style: none;
+            margin: 0 4px;
+            & a{
+                color: white;
+                text-decoration: unset;
+            }
+        }
+    }
+
+}
